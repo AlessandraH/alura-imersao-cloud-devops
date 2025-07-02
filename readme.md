@@ -67,9 +67,16 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 
 ---
 
-## Aula 01 - Criação do Dockerfile
+## Aula 1 - Criação do Dockerfile
 
    ```sh
    docker build -t imersao-devops-api .
    docker run --name imersao-devops-api -d -p 8080:8080 imersao-devops-api
+   ```
+
+## Aula 2 - Criação do docker-compose
+
+   ```sh
+   docker compose up -d
+   docker compose down
    ```
