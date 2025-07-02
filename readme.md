@@ -66,3 +66,10 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+## Aula 01 - Criação do Dockerfile
+
+   ```sh
+   docker build -t imersao-devops-api .
+   docker run --name imersao-devops-api -d -p 8080:8080 imersao-devops-api
+   ```
