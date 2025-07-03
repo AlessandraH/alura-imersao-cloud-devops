@@ -80,3 +80,13 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
    docker compose up -d
    docker compose down
    ```
+
+## Aula 3 - Deploy no GCP
+
+   - Instalação do [`gcloud CLI`](https://cloud.google.com/sdk/docs/install#linux)
+
+   ```sh
+   gcloud auth login
+   gcloud config set project PROJECT_ID
+   gcloud run deploy --port=8080
+   ```
